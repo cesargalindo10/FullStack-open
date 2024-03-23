@@ -1,4 +1,8 @@
-sequenceDiagram
+     /*
+     Ejercicio 0.4
+     */
+
+    sequenceDiagram
     participant browser
     participant server
 
@@ -32,8 +36,11 @@ sequenceDiagram
     Note right of browser: The browser executes the callback function that renders the notes
 
 
+    /*
+     Ejercicio 0.5
+     */
 
-sequenceDiagram
+    sequenceDiagram
     participant Browser
     participant Server
     Browser->>Server: GET https://studies.cs.helsinki.fi/exampleapp/spa
@@ -48,7 +55,10 @@ sequenceDiagram
     Browser->>Server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
     Server-->>Browser: json file
     
-    
+     /*
+     Ejercicio 0.6
+     */
+
     sequenceDiagram
     participant Browser
     participant Server
